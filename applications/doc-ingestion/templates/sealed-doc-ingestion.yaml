@@ -1,0 +1,16 @@
+---
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: secrets
+  namespace: doc-ingestion
+spec:
+  encryptedData:
+    API_KEY: AgCeojdsWAwY76baycJvV2Gw9qWyZZfyCIKMP7xUj1+jd+Diw65L65KuZN7l2dH4KV21lPW515IfdIomZ0yKca8g4CLqgplMtXhGL4vgak2QShUfYaSb9J5HACvE7KGKNWY+0w/0IDUTBcEhsXNPiJEbO5P0ybXW6SPTyJnqBVTRUTZaXYqnVhaIOWa+qS3aQAGzXo877X4l+dVz0P6agPM/ZvSJCz4/iObdxYHdMTKkwsUxPcZYFkd6/7euUMzEoeAZt9RE6zn+/zBQN7gya0wFZyEuQ61kHXR4B3u62+IOThE3Lc5ZdTCakJvwMermNWkCAUyrl8xdCgV4ZA9J3vTJzNPk1XyQ9YloZQFq7BuavNQLKk1P9clQWzYRVNxEshEDr4PzcEKRwRXij+ddSRQWG0qqs6npJ3OIShrCMN7WCibFwBkBsd0xZnVkb4zOhv8QAoNtdO8xJZOOttVXbbSNsebPJUFyo86pCvT1h6ibnKjx3r3iQXHPnUHg2vKWxG6Eir+1sDLXDR0bXXRKXkNQUdWwaIOr+GLj0dz1IJ/spA0fgD0xKur5g1Kl3N2x5XoumwBubYhrnwNnY94i2XFkiOldQLOJX6hpgyKceRh//3huVvJ+kua3M6N2Ng4YdJ+Hmud9l7AZO+1/beGy321KPAEdSiZDUdXhTqB2DyajF+9Y6Co+o9CLeYDMM6ASCjtCINHeylScBf9mrp5FuzX9Dx4pwtmkZZWFz7LuIONx197NPw==
+  template:
+    metadata:
+      creationTimestamp: null
+      name: secrets
+      namespace: doc-ingestion
+    type: Opaque
